@@ -1,0 +1,187 @@
+.AllOrder{
+    margin: 5vh auto;
+    background-color: white;
+    width: 74vw;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    padding-bottom: 5vh;
+}
+
+.transactionstatus{
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    font-size: 20px;
+    margin-left: 3.5vw;
+}
+
+.no_result {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 5vw;
+}
+
+.allpart{
+    display: flex;
+    justify-content: left;
+    margin-left: 3.5vw;
+    position: relative;
+    top: 0.4vw;
+    z-index: 2;
+}
+
+.partprocessing{
+    padding: 1vw;
+    padding-bottom: 1.2vw;
+    border: 1px solid #FCEDCA;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+
+.partfinished{
+    padding: 1vw;
+    padding-bottom: 1.2vw;
+    border: 1px solid #FCEDCA;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.ordercontent{
+    background-color: #FCEDCA;
+    width: 67vw;
+    height: 57vh;
+    border-radius: 10px;
+    padding-top: 3vw;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    overflow: auto;
+}
+
+.processing_finish_list{
+    display: flex;
+    justify-content: space-around;
+    width: 62vw;
+    margin-left: 2.5vw;
+    padding-top: 1.6vw;
+    padding-bottom: 1.6vw;
+    border-top: 1px solid  #F26122;
+    border-bottom: 1px solid  #F26122;
+}
+
+.foto{
+    background-color: white;
+    width: 6.5vw;
+    height: 6.5vw;
+
+}
+
+.foto img {
+    width: 6.5vw;
+    height: 6.5vw;
+}
+
+.Partorder{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.orderdetail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.1vw;
+    margin-bottom: 1.5vw;
+    font-size: 14px;
+}
+
+.detailorder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pesanan{
+    margin-left: 1vw;
+}
+.harga{
+    font-size: 14px;
+}
+
+.statusorder{
+    font-size: 14px;
+    color: white;
+    margin-top: 1.6vw;
+    display: flex;
+    justify-content: right;
+}
+.prosestxt{
+    background-color: #F26122;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.estimation{
+    font-size: 14px;
+}
+
+.finishedcontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.statuspickup{
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+    color: white;
+}
+
+.pickuptxt{
+    background-color: #F26122;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.buttonpickup {
+    display: flex;
+    justify-content: right;
+    margin-top: 2vw;
+}
+
+.confirmbutton{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.2vw 0.6vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+}
+
+.confirmbutton:hover {
+    cursor: pointer;
+}
+
+.statuscomplete{
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+    color: white;
+    margin-right: 3.8vw;
+}
+
+.finishtxt{
+    background-color: #08A618;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.time {
+    margin-top: 0.6vw;
+}
+
+

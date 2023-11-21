@@ -1,0 +1,48 @@
+.notificationSection{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 62vw;
+    height: 80vh;
+    /* margin-top: 3vw; */
+    /* align-self: center */
+    margin-left: 19vw;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    overflow: auto;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-notif{
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.each-notif {    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.each-notif a{
+    display: block;
+    padding: 1.2vw 1.5vw 1.7vw 1.5vw;
+}
+
+
+.headtxt{
+    font-size: 18px;
+    margin-bottom: 0.5vw;
+}
+
+.time{
+    color: rgb(105, 105, 105);
+}
+
+.no_result {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 5vw;
+}

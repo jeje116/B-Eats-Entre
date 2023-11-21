@@ -1,0 +1,172 @@
+.admin-transaction{
+    background-color: white;
+    width: 70vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 1vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 1.3vw 2vw;
+}
+
+
+.transaction-status{
+    display: flex;
+    margin-bottom: 1.3vw;
+    font-size: 2vw;
+}
+
+.order-content{
+    background-color: #FCEDCA;
+    height: 68vh;
+    width: 66vw;
+    border-radius: 10px;
+    padding: 2vw;
+    overflow: auto;
+}
+
+.coba{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notes{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    font-size: 1.2vw;
+}
+
+.item_notes {
+    margin-right: 1vw;
+}
+
+.namatenant{
+    display: flex;
+    font-size: 1.5vw;
+}
+
+.text-quantity {
+    margin-right: 1vw;
+}
+
+.quantity{
+    text-align: center;
+    width: 5%;
+    font-size: 1.2vw;
+}
+
+.processing-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid rgba(242, 97, 34, 0.4);
+    border-bottom: 1px solid rgba(242, 97, 34, 0.4);
+    padding: 1.4vw 2vw;
+}
+
+.foto-makanan{
+    background-color: white;
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-right: 0.5vw;
+}
+
+#iconchecklist{
+    font-size: 35px;
+    color: #F26122;
+    position: relative;
+    margin-right: 0.5vw;
+}
+
+#iconbell{
+    font-size: 35px;
+    color: #F26122;
+}
+
+.statusinfo {
+    position: relative;
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    margin-right: 2vw;
+}
+
+.proses-txt2{
+    display: none;
+    width: 9vw;
+    text-align: center;
+    background-color: #F26122;
+    padding: 0.5vw 1vw;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    font-size: 0.8vw;
+    position: absolute;
+    top: -1.6vw;
+    right: 1.5vw;
+    color: white;
+}
+
+.fa-bell:hover {
+    cursor: pointer;
+}
+
+.isisi{
+    display: flex;
+    justify-content: center;
+}
+
+.Partorder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.namatenant{
+    margin-bottom: 1vw;
+}
+
+.orderdetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.pesanan{
+    margin-left: 1.5vw;
+}
+
+.statuscomplete{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+}
+
+.finishtxt{
+    background-color: #08A618;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.time {
+    margin-top: 0.6vw;
+}
+
+
+
+.no_result {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 5vw;
+}
+
